@@ -1,0 +1,12 @@
+name: fitzface
+version: 0.0.1
+description: >-
+  Fitzface blog
+homepage: https://fitzface.dev
+documentation: https://fitzface.dev
+environment:
+  sdk: '>=2.10.0 <3.0.0'
+dependencies: 
+  front_matter: ^1.1.0
+  jael: ^2.0.2
+  markdown: ^3.0.0
