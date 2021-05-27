@@ -5,7 +5,7 @@ As such, the final product (i.e., what you see when visiting the blog) includes 
 * No JavaScript (except for site analytics)
 * No frameworks, libraries, shims, web components, etc.
 * No backends, databases, streams, iframes, ads, forms, logins, or other "features"
-* Fully standards-compliant HTML5 and CSS
+* Only standards-compliant HTML5 and CSS
 
 The build pipeline is written in [Dart](https://dart.dev) and uses a couple of packages to handle the parsing of content into templates. At a high level, it:
 
