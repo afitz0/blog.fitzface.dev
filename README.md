@@ -17,4 +17,4 @@ The build pipeline is written in [Dart](https://dart.dev) and uses a couple of p
 That's it. That's all I've got. :)
 
 # Acknowledgements
-While the code and implementation details are different, *SO* much of this has been _heavily_ inspired by Thea Flowers' blog, the source for which you can find [here](https://github.com/theacodes/blog.thea.codes).
+While the code and implementation details are different, *SO* much of this has been _heavily_ inspired by Thea Flowers' blog, the source for which you can find [here](https://github.com/theacodes/blog.thea.codes). Also go read [Thea's blog](https://blog.thea.codes/). 
