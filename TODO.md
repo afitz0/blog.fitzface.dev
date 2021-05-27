@@ -1,4 +1,4 @@
-[ ] Footnotes
-[ ] Better Styling
-[ ] Launch
-[ ] Code highlighting
+- [ ] Footnotes
+- [ ] Better Styling
+- [ ] Launch
+- [ ] Code highlighting

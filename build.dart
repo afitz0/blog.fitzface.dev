@@ -9,7 +9,7 @@ import 'package:path/path.dart';
 const POST_SRC_ROOT = "./src/";
 const TEMPLATE_ROOT = "./templates/";
 const POST_TEMPLATE = "post.html";
-const OUT_DIR = "./out";
+const OUT_DIR = "./docs";
 
 main() async {
   Directory postsDir = Directory(POST_SRC_ROOT);
