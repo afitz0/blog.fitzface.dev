@@ -37,22 +37,22 @@ main() async {
       if (document == null) {
         stderr.writeln('Could not parse the given text.');
       } else {
+        final outFileBase = filenameNoExt + '.html';
         CodeBuffer output = CodeBuffer();
         const jael.Renderer().render(
           document,
           output,
           SymbolTable(values: {
             'content': htmlContent,
+            'filename': outFileBase,
             ...fm.data,
           }),
           strictResolution: false,
         );
 
-        await File(OUT_DIR + Platform.pathSeparator + filenameNoExt + '.html')
+        await File(OUT_DIR + Platform.pathSeparator + outFileBase)
             .writeAsString(output.toString());
       }
     }
   }
 }
-
-// jael.Document parse
