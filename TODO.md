@@ -1,0 +1,3 @@
+[ ] Footnotes
+[ ] Better Styling
+[ ] Launch
