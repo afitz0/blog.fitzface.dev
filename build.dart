@@ -21,7 +21,7 @@ main() async {
       final String filenameNoExt = basenameWithoutExtension(thing.path);
       final String fileExtension = extension(thing.path);
 
-      if (fileExtension != 'md') continue;
+      if (fileExtension != '.md') continue;
 
       final String postMarkdown = thing.readAsStringSync();
 
@@ -41,13 +41,15 @@ main() async {
         const jael.Renderer().render(
           document,
           output,
-          SymbolTable(
-              values: {'title': fm.data['title'], 'content': htmlContent}),
+          SymbolTable(values: {
+            'content': htmlContent,
+            ...fm.data,
+          }),
           strictResolution: false,
         );
 
         await File(OUT_DIR + Platform.pathSeparator + filenameNoExt + '.html')
-          .writeAsString(output.toString());
+            .writeAsString(output.toString());
       }
     }
   }
