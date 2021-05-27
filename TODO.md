@@ -2,3 +2,4 @@
 - [ ] Better Styling
 - [ ] Launch
 - [ ] Code highlighting
+- [ ] Index page
