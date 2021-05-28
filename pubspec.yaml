@@ -2,8 +2,8 @@ name: fitzface
 version: 0.0.1
 description: >-
   Fitzface blog
-homepage: https://fitzface.dev
-documentation: https://fitzface.dev
+homepage: https://blog.fitzface.dev
+documentation: https://github.com/afitz0/blog.fitzface.dev
 environment:
   sdk: '>=2.10.0 <3.0.0'
 dependencies: 
