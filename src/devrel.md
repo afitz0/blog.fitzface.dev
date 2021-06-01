@@ -42,7 +42,7 @@ Having the full pathway of technical education, from comprehensive reference doc
 
 ### Product Excellence
 
-Ok, so, we've solved one aspect of The Arborous API's arduousness by writing more docs and other educational materials. But it turns out that nobody really wants to write raw HTTP requests. It would be **so** much easier to use if you could just write idiomatic [LOLCODE](https://en.wikipedia.org/wiki/LOLCODE). 
+Ok, so, we've solved one aspect of The Arborous API's arduousness by writing more docs and other educational materials. But it turns out that nobody really wants to write raw HTTP requests. It would be **so** much easier to use if you could just write idiomatic [LOLCODE](https://en.wikipedia.org/wiki/LOLCODE): 
 
 ```LOLCODE
 HAI 1.3
@@ -68,7 +68,7 @@ Speaking of leaves, how would you feel if you were the only user of the Arborous
 
 Instead, you'd probably feel a lot better using the Arborous API if you saw other people using it too.
 
-There's **_a lot_** of detail wrapped up in this and I prune it down to this: developers want to **_feel_** successful with the service and want to feel like they **_can be_** successful, too. ("Knowing" that success is possible is more the purview of the prior two pillars.)
+There's a lot of detail nuance here, but I prune it down to this: developers want to **_feel_** successful with the service and want to feel like they **_can be_** successful, too. ("Knowing" is more the purview of the prior two pillars.)
 
 In order to **_feel_** successful, you want to know that when you run into a problem, you'll be able to get it solved. Customer support groups, StackOverflow tags, GitHub issues, user forums, published roadmaps all play a role in this. DevRel can, but doesn't have to be, directly involved in answering customer questions. But cultivating a healthy forest takes real work that DevRel often helps with (and we try not to be lumberjacks too often). The work here is just as much about the tech as it is people: We should be modeling good interactions, showing examples of good answers or explanations, or highlighting others who've done the same.
 
