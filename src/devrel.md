@@ -3,7 +3,7 @@ title: What is Developer Relations anyways?
 short-title: DevRel!?!
 synopsis: What do these mysterious "DevRel" people do? Why does it have to be mysterious?
 author: Fitz
-date: 2021-05-26
+date: 2021-06-01
 ---
 
 Alright. So. You just got out of a standard software engineer interview, and all the questions were about balancing trees. Upon researching the team, you find that they're actually abstracting themselves away by creating a new cloud service: The Arborous API.
