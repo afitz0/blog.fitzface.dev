@@ -2,4 +2,4 @@
 - [ ] Better Styling
 - [ ] Launch
 - [ ] Code highlighting
-- [ ] Index page
+- [ ] Autogen index list

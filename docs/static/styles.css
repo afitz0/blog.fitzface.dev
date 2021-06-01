@@ -103,3 +103,47 @@ p > code {
   font-size: medium;
   padding: 2px;
 }
+
+.two-up {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  max-width: 800px; 
+}
+
+.two-up > figure {
+  text-align: center;
+  margin: 0px 24px;
+}
+
+#headshot {
+  width: 300px;
+  height: auto;
+}
+
+#synopsis {
+  min-width: 200px;
+}
+
+@media (max-width: 800px) {
+  .two-up {
+    flex-wrap: wrap;
+  }
+
+  #headshot {
+    width: 70%;
+  }
+
+  .two-up > figure {
+    margin: 12px 4px;
+  }
+}
+
+figcaption {
+  font-size: smaller;
+  font-style: italic;
+}
+
+#post-index {
+  margin: 40px;
+}
