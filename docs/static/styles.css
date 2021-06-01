@@ -44,6 +44,8 @@ article {
   color: var(--text-primary);
 }
 
+
+
 #socials {
   width: 50%;
   display: flex;
@@ -136,6 +138,18 @@ p > code {
 
   .two-up > figure {
     margin: 12px 4px;
+  }
+
+  article {
+    width: 95%;
+  }
+
+  body {
+    margin: 20px;
+  }
+
+  pre > code {
+    margin-left: 0;
   }
 }
 
