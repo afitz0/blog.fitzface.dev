@@ -63,6 +63,10 @@ article {
   background-image: url('/static/twitter.svg'), none;
 }
 
+#socials .mastodon {
+  background-image: url('/static/mastodon.svg'), none;
+}
+
 #socials .github {
   background-image: url('/static/github.svg'), none;
 }
