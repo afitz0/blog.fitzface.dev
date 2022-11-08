@@ -1,75 +1,76 @@
 <html>
 
 <head>
-  <title>{{ title }} - Fitz's Blog</title>
-  <link rel="stylesheet" href!="/static/styles.css">
+    <title>{{ title }} - Fitz's Blog</title>
+    <link rel="stylesheet" href!="/static/styles.css">
 
-  <meta name="viewport" content!="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Content-Type" content!="text/html; charset=utf-8">
-  <meta name="description" content!="Andrew Fitz Gibbon's personal website including resume, portfolio, and blog.">
-  <meta name="author" content="Andrew Fitz Gibbon">
-  <meta name="copyright" content="Andrew Fitz Gibbon">
-  <meta http-equiv="cache-control" content="no-cache">
-  <meta name="robots" content="index, follow">
-  <meta name="language" content="English">
+    <meta name="viewport" content!="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content!="text/html; charset=utf-8">
+    <meta name="description" content!="Andrew Fitz Gibbon's personal website including resume, portfolio, and blog.">
+    <meta name="author" content="Andrew Fitz Gibbon">
+    <meta name="copyright" content="Andrew Fitz Gibbon">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
 
-  <meta property="og:title" content=title>
-  <meta property="og:type" content="article">
-  <meta property="og:url" content!="https://blog.fitzface.dev/" + filename>
-  <!-- <meta property="og:image" content=""> -->
-  <meta property="og:description" content=synopsis>
+    <meta property="og:title" content=title>
+    <meta property="og:type" content="article">
+    <meta property="og:url" content!="https://blog.fitzface.dev/" + filename>
+    <!-- <meta property="og:image" content=""> -->
+    <meta property="og:description" content=synopsis>
 
-  <link rel="preconnect" href!="https://fonts.gstatic.com">
-  <link
-    href!="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap"
-    rel="stylesheet">
+    <link rel="preconnect" href!="https://fonts.gstatic.com">
+    <link
+        href!="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap"
+        rel="stylesheet">
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src!="https://www.googletagmanager.com/gtag/js?id=G-GN1X0N429J"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-GN1X0N429J');
-  </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src!="https://www.googletagmanager.com/gtag/js?id=G-GN1X0N429J"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-GN1X0N429J');
+    </script>
 </head>
 
 <body>
-  <header>
-    <h1>{{ title }}</h1>
-    <section id="by-line">
-      <p id="author">By: {{ author }}</p>
-      <p id="date">Posted on: {{ date }}</p>
-    </section>
-  </header>
-  <main>
-    <article>
-      {{- content }}
-    </article>
-  </main>
-  <footer>
-    <div id="socials">
-      <a href!="https://twitter.com/fitzface" rel="noopener" title="Twitter">
-        <div class="twitter"></div>
-      </a>
-      <a href!="https://www.linkedin.com/in/andrew-fitz-gibbon/" rel="noopener" title="LinkedIn">
-        <div class="linkedin"></div>
-      </a>
-      <a href!="https://github.com/afitz0" rel="noopener" title="GitHub">
-        <div class="github"></div>
-      </a>
-      <a href="mailto:fitz@fitzface.com" target="_blank" title="Email">
-        <div class="mail"></div>
-      </a>
-    </div>
-    <p>&copy;2021 Andrew S. Fitz Gibbon</p>
-    <p>All content on this site is licensed under the <a rel="license"
-        href!="http://creativecommons.org/licenses/by-sa/4.0/">
-        CC-BY-SA 4.0 License</a>.</p>
-    <p>All source code on this site is open under the <a href!="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0
-        license.</a></p>
-    <p>This site's source can be found <a href!="https://github.com/afitz0/blog.fitzface.dev">on GitHub.</a></p>
-  </footer>
+    <header>
+        <h1>{{ title }}</h1>
+        <section id="by-line">
+            <p id="author">By: {{ author }}</p>
+            <p id="date">Posted on: {{ date }}</p>
+        </section>
+    </header>
+    <main>
+        <article>
+            {{- content }}
+        </article>
+    </main>
+    <footer>
+        <div id="socials">
+            <a href!="https://twitter.com/fitzface" rel="noopener" title="Twitter">
+                <div class="twitter"></div>
+            </a>
+            <a href!="https://www.linkedin.com/in/andrew-fitz-gibbon/" rel="noopener" title="LinkedIn">
+                <div class="linkedin"></div>
+            </a>
+            <a href!="https://github.com/afitz0" rel="noopener" title="GitHub">
+                <div class="github"></div>
+            </a>
+            <a href="mailto:fitz@fitzface.com" target="_blank" title="Email">
+                <div class="mail"></div>
+            </a>
+        </div>
+        <p>&copy;2022 Andrew S. Fitz Gibbon</p>
+        <p>All content on this site is licensed under the <a rel="license"
+                href!="http://creativecommons.org/licenses/by-sa/4.0/">
+                CC-BY-SA 4.0 License</a>.</p>
+        <p>All source code on this site is open under the <a href!="https://www.apache.org/licenses/LICENSE-2.0">Apache
+                2.0
+                license.</a></p>
+        <p>This site's source can be found <a href!="https://github.com/afitz0/blog.fitzface.dev">on GitHub.</a></p>
+    </footer>
 </body>
 
 </html>
