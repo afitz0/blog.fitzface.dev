@@ -1,13 +1,19 @@
 name: fitzface
 version: 0.0.1
+publish_to: none
 description: >-
   Fitzface blog
 homepage: https://blog.fitzface.dev
 documentation: https://github.com/afitz0/blog.fitzface.dev
 environment:
-  sdk: '>=2.10.0 <3.0.0'
+  sdk: '>=3.0.0 <4.0.0'
 dependencies: 
-  front_matter: ^1.1.0
-  jael3: ^4.0.0
-  markdown: ^4.0.0
+  front_matter:
+    git:
+      url: https://github.com/nank1ro/front-matter
+      ref: master
+  jael3: ^8.0.0
+  markdown: ^7.1.1
   path: ^1.8.0
+  angel3_code_buffer: ^2.0.0
+  belatuk_symbol_table: ^5.0.0

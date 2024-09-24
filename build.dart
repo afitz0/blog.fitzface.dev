@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:angel3_code_buffer/angel3_code_buffer.dart';
 import 'package:jael3/jael3.dart' as jael;
-import 'package:angel3_symbol_table/angel3_symbol_table.dart';
+import 'package:belatuk_code_buffer/belatuk_code_buffer.dart';
+import 'package:belatuk_symbol_table/belatuk_symbol_table.dart';
 import 'package:markdown/markdown.dart';
 import 'package:front_matter/front_matter.dart' as frontmatter;
 import 'package:path/path.dart';
@@ -27,7 +27,7 @@ main() async {
       final String postMarkdown = thing.readAsStringSync();
 
       var fm = frontmatter.parse(postMarkdown);
-      String htmlContent = markdownToHtml(fm.content);
+      String htmlContent = markdownToHtml(fm.content!);
 
       var document = jael.parseDocument(
         template,
@@ -46,7 +46,7 @@ main() async {
           SymbolTable(values: {
             'content': htmlContent,
             'filename': outFileBase,
-            ...fm.data,
+            ...fm.data!,
           }),
         );
 
